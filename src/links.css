@@ -1,0 +1,9 @@
+.link-info {
+    color: #fff;
+    font-family: 'Inter', sans-serif;    
+    font-size: 18px;
+    background-color: #2F82FF;
+    border-radius: 100px;
+    padding: 1rem;
+    margin-inline: 8rem;
+}

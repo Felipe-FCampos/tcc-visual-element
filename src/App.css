@@ -34,7 +34,6 @@ header {
   cursor: pointer;
   background-color: #1e447d;
   transition: 0.4s;
-  transform: scale(1.05);
 }
 
 .App a {
@@ -43,11 +42,10 @@ header {
 
 .App-logo {
   height: 40vmin;
-  pointer-events: none;
   margin-bottom: 108px;
 }
 
-.title {
+.titulo {
   width: 664px;
   height: 201px;
 }
@@ -56,20 +54,10 @@ header {
   color: #61dafb;
 }
 
-.buttons {
+.botoes {
   margin: 1.5rem;
 }
 
-@keyframes bounce {
-  0%, 100% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(30px);
-  }
-}
-
-.App-logo {
-  line-height: 100px;
-  animation: bounce 4s infinite;
+.botoes:hover {
+  cursor: pointer;
 }

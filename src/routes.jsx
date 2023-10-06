@@ -1,20 +1,20 @@
 import React from 'react';
 import { Route, Routes } from "react-router-dom";
-import Home from './pages/home';
-import PublicApp from "./pages/publicapp";
-import Idea from './pages/ideas';
-import Equip from './pages/equipaments';
-import Project from './pages/projeto';
-import Info from './pages/info';
+import Home from './home';
+import PublicApp from "./publicoalvo";
+import Idea from './ideias';
+import Equip from './materiais';
+import Project from './projeto';
+import Info from './info';
 
 function Router() {
     return (
         <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/publicapp" element={<PublicApp />} />
-            <Route path='/ideas' element={<Idea />} />
-            <Route path='/equipaments' element={<Equip />} />
-            <Route path='/project' element={<Project />} />
+            <Route path="/publicoalvo" element={<PublicApp />} />
+            <Route path='/ideias' element={<Idea />} />
+            <Route path='/materiais' element={<Equip />} />
+            <Route path='/projeto' element={<Project />} />
             <Route path='/bibliografia' element={<Info />} />
         </Routes>
     );
